@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+</html>
 
+
+<head>
+<title>Pricing</title>
+</head>
+
+<style>
+</style>
+<body style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpe54E0BAY3P6YnVdf5iiv62hinSKcaVCJMw&s');">
+<table width="100%"; style='background-color:rgb(255, 225, 30)'>
+    <tr>
+        <td style='font-size:300%;'>HobBe</td>
+        <td style ='text-align:right; font-size:300%;'>Pricing Teams Features</td>
+    </tr>
+</table>
+
+<br>
+<br>
+<br>
+
+
+<table width="100%" style='background-color:rgb(255, 49, 30)'>
+    <tr>
+        <td>
+            <ul>
+                <h1>HobBe</h1>
+                <li>Find hobbies near you</li>
+                <li>Connect with other</li>
+                <li>Find out what's happening</li>
+                <li>Discover new hobbies</li>
+                </ul>
+                <br>
+                <h2 style='background-color:rgb(30, 255, 229)'>Download for free</h2>
+        </td>
+
+        <td>
+            <h1>HobBe Mastery</h1>
+            <ul>
+            <li>Premium hobby learning</li>
+            <li>Learn from experts</li>
+            <li>Improve in your hobby</li>
+            <li>Discover your true potential</li>
+            </ul>
+        <br>
+        <h2 style='background-color:rgb(30, 251, 255)'>Explore now</h2>
+        </td>
+    </tr>
+</table>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h1 align="center" style='background-color:rgb(255, 30, 221)'>HobBe Business</h1>
+<h4 align="center" style='background-color:rgb(60, 255, 30)'>Learn more</h4>
+
+</body>
+
+
+
+</html>
