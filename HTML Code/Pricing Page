@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 </html>
 
-
+<!-- Pricing head tag -->
 <head>
 <title>Pricing</title>
 </head>
 
-<style>
-</style>
+<!-- Top of page nav bar -->
 <body style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpe54E0BAY3P6YnVdf5iiv62hinSKcaVCJMw&s');">
 <table width="100%"; style='background-color:rgb(255, 225, 30)'>
     <tr>
@@ -20,7 +19,7 @@
 <br>
 <br>
 
-
+<!-- Pricing options and description -->
 <table width="100%" style='background-color:rgb(255, 49, 30)'>
     <tr>
         <td>
@@ -55,6 +54,7 @@
 <br>
 <br>
 
+<!-- Additional option with hyperlink to business page -->
 <h1 align="center" style='background-color:rgb(255, 30, 221)'>HobBe Business</h1>
 <h4 align="center" style='background-color:rgb(60, 255, 30)'>Learn more</h4>
 
