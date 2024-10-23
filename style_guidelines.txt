@@ -4,8 +4,8 @@ The basic template for HobBee:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The general atmosphere of the website from page to page should be, engaging, warm and welcoming. It should make the user feel right at home and empowered 
-(trying new hobbies can hard or even scary). The main theme for hobby is bees, they are hardworking, collabroative and have striking colours. 
-As such the main core styles HobBee will utilise is: 
+(trying new hobbies can hard or even scary). The main theme for HobBee is bees, they are hardworking, collabroative and have striking colours. 
+As such the main core styles HobBee will utilise is:   
 
 
 Colours
