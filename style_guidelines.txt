@@ -7,40 +7,40 @@ The general atmosphere of the website from page to page should be, engaging, war
 (trying new hobbies can hard or even scary). The main theme for HobBee is bees, they are hardworking, collabroative and have striking colours. 
 As such the main core styles HobBee will utilise is:   
 
+Color Theme
 
-Colours
-_______
+* Primary Colors: Inspired by bees and honeycombs, relating to the name of the app
+   * Bee Yellow: #ffcc00 (Primary elements like buttons, icons, and headers)
+   * Golden Yellow: #ffd700 (Hover states and highlights)
+   * Honey White: #fffbee (Backgrounds for cards and containers)
+   * Dark Gray: #333333 (Primary text color)
+   * Background Honey Yellow: #fdf6b2 (General background color)
 
+Typography
 
+* Primary Font: Arial, sans-serif
+* Font Sizes:
+   * Main Headers: 36px, bold, in bee yellow (#ffcc00)
+   * Sub-headers: 24px, bold, dark gray (#333333)
+   * Body Text: 16px, regular, in dark gray
+   * Navigation Links: 16px, bold, black with rounded backgrounds
+* Text Styling:
+   * Light text-shadow for titles and main headers.
+   * Standard line height of 1.5 for all paragraphs.
 
+Layout & Spacing
 
-Icons and tidbits
-_________________
+* Navigation Bar:
+   * At the top, with a bright bee-yellow background (#ffcc00) and padding of 15px.
+   * Center-aligned links with space between each item
+* Content Layout:
+   * Maximum width of 1200px centered for main content
+   * 20px padding within content areas and 30px margin between major sections 
+* Containers:
+   * Rounded corners and a soft shadow for all containers
+   * Use a subtle border or background gradient in lighter yellow hues for emphasis.
 
+Icons & Shapes
 
-
-
-Fonts and such
-______________
-
-
-
-
-Links
-_____
-
-
-
-
-Buttons
-_______
-
-
-
-
-
-
-
-
-
-
+* Hexagon Shapes: Use CSS hexagonal shapes or honeycomb patterns in some places such as on main titles, key sections, or as accents on buttons.
+* Button & Hover Icons: Subtle, minimal icons to reinforce the bee theme
