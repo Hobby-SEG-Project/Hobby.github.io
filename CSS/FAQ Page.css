@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+     /* Light yellow background */
+    background-color: #fdf6b2;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navigation Menu */
+nav {
+     /* Bright bee-yellow */
+    background-color: #ffcc00;
+    padding: 15px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    font-size: 16px;
+     /* Dark text */
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+     /* Rounded */
+    border-radius: 50px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    /* Darker yellow when hovering */
+    background-color: #ffd700;
+    border-radius: 50px;
+}
+
+/* FAQ Container */
+.faq-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    /* Light honey color */
+    background-color: #fffbee; 
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    /* Yellow border */
+    border: 3px solid #ffcc00; 
+}
+
+.faq-header {
+    font-size: 36px;
+    text-align: center;
+    /* Bee-yellow */
+    color: #ffcc00; 
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px #333;
+}
+
+/* FAQ Item */
+.faq-item {
+    margin-bottom: 20px;
+    /* Honey gold border */
+    border-bottom: 2px solid #ffd700; 
+    padding-bottom: 15px;
+}
+
+.faq-question {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px;
+    /* Pale yellow background */
+    background-color: #fff8dc; 
+    /* Gold border */
+    border: 1px solid #ffd700; 
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.faq-question:hover {
+    background-color: #ffe066; 
+}
+
+.faq-answer {
+    /* Answers are hidden by default */
+    display: none; 
+    padding: 15px;
+    border-left: 5px solid #ffcc00; 
+    background-color: #fffbee;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.faq-answer5 {
+    /* Different for final answer because it has white space beneath; less padding*/
+    display: none; 
+    padding: 15px;
+    border-left: 5px solid #ffcc00;
+    background-color: #fffbee;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+}
