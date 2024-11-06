@@ -77,7 +77,6 @@ h2.slogan {
     text-align: right; 
 }
 
-/* Content Box - Shared Styles */
 .content-box {
     display: flex;
     font-size: 28px;
@@ -117,5 +116,4 @@ li a:hover {
     background-color: #ffd700;
     transition: all 0.3s ease-in-out;
 }
-
 
