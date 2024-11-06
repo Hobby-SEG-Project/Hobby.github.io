@@ -18,7 +18,7 @@ Color Theme
 
 Typography
 
-* Primary Font: Arial, sans-serif
+* Primary Font: Itim from Google Fonts
 * Font Sizes:
    * Main Headers: 36px, bold, in bee yellow (#ffcc00)
    * Sub-headers: 24px, bold, dark gray (#333333)
