@@ -1,5 +1,14 @@
-*{
-    background-color: #fdf6b2;
+
+img{
+  width:170px;
+}
+
+body{
+  background-image:url(PebbleBeach.jpg);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-attachment:fixed;
+  background-size:cover;
 }
 
 .header{
@@ -10,20 +19,11 @@
     background-color: #fdf6b2;
 
 
-    padding-top: 10px;
+  padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
     
-}
-
-ul{
-    
-   text-align:center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
 }
 
 li.nav{
@@ -34,7 +34,7 @@ li a:hover {
   }
 
   li a {
-    font-size: 16px;
+    font-size: 30px;
     font-weight: bold;
     border-style: solid;
     color: #ffcc00;
@@ -46,7 +46,33 @@ li a:hover {
     padding: 14px 16px;
     text-decoration: none;
   }
-h2{
+
+  .BOX{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:60px;
+    
+  }
+  .box{
+    display:flex;
+    font-size: 16px;
+    font-weight: bold;
+    border-style: solid;
+    opacity: 0.8;
+    border-radius:30px;
+    background-color: #fdf6b2;
+
+    width:400px;
+    height:500px;
+    
+    color: rgb(182, 29, 29);
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+
+.buttons{
   font-size:24px;
   border-style:solid;
   color:black;
@@ -55,16 +81,19 @@ h2{
   margin:auto;
   background-color: #fffbee;
   padding: 14px 16px;
-  text-decoration: none;
+  text-align:center;
+  text-decoration:none;
 }
-  .column {
-    
-    float: left;
-    width: 50%;
-   
-  }
+  
 
 h4{
   font-size:24px;
   color:#fffbee;
+}
+
+.business{
+  font-weight:bold;
+}
+span {
+  background-color:#fffbee;
 }
