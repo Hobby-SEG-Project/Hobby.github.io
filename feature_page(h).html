@@ -1,35 +1,132 @@
 ﻿<!DOCTYPE html>
-<html lang = "en-ca">
+<html lang="en">
 <head>
-    <meta charset = "utf-8" />
-    <title> Features </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features - PassionSphere</title>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Itim', cursive;
+            background-color: #fdf6b2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #ffcc00;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        .header ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header li {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        .header a {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 30px;
+            background-color: #fffbee;
+            transition: background-color 0.3s ease;
+        }
+
+        .header a:hover {
+            background-color: #ffd700;
+        }
+
+        .feature-title {
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            color: #ffcc00;
+            margin-top: 30px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+
+        .feature-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+
+        .feature-item {
+            background-color: #fffbee;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 2px solid #ffd700;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .feature-item h3 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .feature-item p {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.5;
+        }
+
+    </style>
 </head>
-<body style="background-color: #fdf6b2;">
-    <!-- Title of the website (in the menu area) and Navigation bar  -->
-    <div style="background-color: #ffcc00; color: white; padding: 15px;">
-        <h1 style="text-align: center;"> HobBee </h1>
-        
+<body>
+
+    <div class="header">
+        <ul>
+            <a href="home.html"><img src="images/HobBeeLogo.png" alt="HobBee Logo" style="width: 80px;"> </a>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="feature_page(h).html">Features</a></li>
+            <li><a href="teams.html">Teams</a></li>
+        </ul>
     </div>
 
-    <!-- Space / padding between menu bar and website body -->
-    <div style="background-color: none; color: white; padding:8px;">
-    </div>
+    <h1 class="feature-title">Features of HobBee</h1>
 
-    <!--The blocks for the body of the website (pictures and layout)-->
+    <div class="feature-container">
+        <div class="feature-item">
+            <h3>Explore New Hobbies</h3>
+            <p>Discover new hobbies and activities that will inspire you. From arts and crafts to outdoor adventures, there's something for everyone!</p>
+        </div>
 
-    <div style="background-color: #fffbee; color: #333333; padding: 10px; height: 450px;">
-        <h2 style = "text-align: center;"> learning is so much more fun together! </h2>
-        <button onclick =""> Discover more </button>
+        <div class="feature-item">
+            <h3>Track Your Progress</h3>
+            <p>Set goals, track your progress, and see how far you've come. PassionSphere helps you stay motivated and on track to achieve your hobby goals.</p>
+        </div>
 
-    </div>
+        <div class="feature-item">
+            <h3>Collaborative Challenges</h3>
+            <p>Join challenges and collaborate with others in the community. Push yourself further by working with others who share your passion.</p>
+        </div>
 
-    <!-- Space / padding between menu bar and website body -->
-    <div style="background-color: none; color: #333333; padding: 8px;">
-    </div>
-
-    <!--The blocks for the body of the website (pictures and layout)-->
-    <div style="background-color: #fffbee; color: #333333; padding: 10px; height: 250px;">
-        <img src="happy_people.jpg" alt="Whether you like competive tennis or leisurely swimming, sports is for all">
+        <div class="feature-item">
+            <h3>Expert Advice</h3>
+            <p>Get expert tips and advice from professionals to enhance your skills in whatever hobby you pursue. Level up your abilities with the best resources!</p>
+        </div>
     </div>
 
 </body>
