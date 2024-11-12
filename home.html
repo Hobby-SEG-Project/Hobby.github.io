@@ -1,76 +1,56 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>HobBee</title> <!--Maybe add - home or something-->
-		<link rel="stylesheet" href="home.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
-        
-    </head>
-    <body style="background-color: fdf6b2;"> <!--placeholder color so it doesnt look all white-->
-        <nav class="navbar"></nav>
-
-        <div class="header">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <video autoplay loop muted plays-inline class="back-video">
+        <source  src="video.mp4" type="video/mp4">
+    </video>
+    <header>
+        <nav>
+            <img src="logo.png" class="logo">
             <ul>
-                <a href="home.html"><img src="images/HobBeeLogo.png"> </a>
-                <li class='nav' style="float: right;"><a href="FAQ.html">FAQ</a></li>
-                <li class='nav' style="float: right;"><a href="pricing.html">Pricing</a></li>
-                <li class='nav' style="float: right;"><a href="hobbeeBusiness.html">Business</a></li>
-                <li class='nav' style="float: right;"><a href="featurespage.html">Features</a></li>
-                <li class='nav' style="float: right;"><a href="teams.html">Teams</a></li>
-              </ul>
-        </div>
- 
-        <br>
-        <center>
-        <h1>HobBee</h1> <!--need to change this to the logo-->
-        </center>
-        <center>
-        <i><u><h2 style="font-size: 48px;">Hobbies Made Easy!</h2></i></u>
-        </center>
-    <br>
-    <br>
-    <br>
-    <div class="content-container">
-        <div class="content-box left">
-            <div class="text-content">
-                <p><strong>HobBee</strong> is an innovative interactive app designed to connect users with their ideal hobbies. By simply entering interests, users can explore events and activities nearby that are catered to their preferred pastimes.</p>
+                <li><a href='teams.html'>TEAMS</a></li>
+                <li><a href='featurespage'>FEATURES</a></li>
+                <li><a href='pricing'>PRICING</a></li>
+                <li><a href='FAQ.html'>FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <small>Welcome to</small>
+        <h1>HobBee</h1>
+    </div>
+    <div class="body1">
+        <div class="text1">
+            <div class="oval">
+                <h1>Find Your Passion</h1>
             </div>
-            <div class="image-content">
-                <img src="images/happy.jpg" alt="Happy people enjoying hobbies" />
+            <img src="image1.jpg" alt="Image" class="side-image">
+        </div>
+    </div>
+    
+    <div class="body2">
+        <div class="text2">
+            <img src="image2.jpg" alt="Image" class="side-image">
+            <div class="oval">
+                <h1>Learn More</h1>
             </div>
         </div>
     </div>
-    <div class="content-container">
-        <div class="content-box right">
-            <div class="text-content">
-                <p>Whether you're looking to strengthen your knowledge or delve into something new, HobBee offers a multitude of learning opportunities that are aimed at all skill levels.</p>
+    
+    <div class="body3">
+        <div class="text3">
+            <div class="oval">
+                <h1>Connect with Others</h1>
             </div>
-            <div class="image-content">
-                <img src="images/activities.jpg" alt="man doing an activity outside" />
-            </div>
+            <img src="image3.jpg" alt="Image" class="side-image">
         </div>
-    </div>
-    <div class="content-container">
-        <div class="content-box left">
-            <div class="text-content">
-                <p>Join a vibrant community of like-minded individuals, create connections, and discover new facets of yourself through engaging hobbies. With HobBee, discovering your passion has never been easier or more exciting!</p>
-            </div>
-            <div class="image-content">
-                <img src="images/community.jpg" alt="people joined together though hobbies" />
-            </div>
-        </div>
-    </div> 
-    <div class="content-container">
-        <div class="content-box left">
-            <div class="text-content">
-                <p>Reviews:</p>
-            </div>
-            <div class="image-content">
-                <img src="images/happy.jpg" alt="Happy people enjoying hobbies" />
-            </div>
-        </div>
-    </div>
-    </body>
+    </div>    
+</body>
 </html>
