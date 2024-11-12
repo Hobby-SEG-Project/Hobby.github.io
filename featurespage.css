@@ -1,42 +1,79 @@
-img.achieve{
-   width:250px;
+/* Navbar Styling */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-weight: bold;
+    z-index: 10;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-weight: bold;
+    z-index: 10;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav .logo img {
+    height: 40px;
+    width: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 30px;
+    margin: 0 20px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ffd700;
+    color: #333;
+    transform: scale(1.05);
+}
+
+/* Feature Page Styling */
+img.achieve {
+    width: 250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-img.logo{
-    width:170px;
-  }
-
-li.nav{
-    display:inline;
+img.logo {
+    width: 170px;
 }
-li a:hover {
-    background-color: #ffd700;
-  }
 
-  li a {
-    font-size: 30px;
-    font-weight: bold;
-    border-style: solid;
-    color: #ffcc00;
-    opacity: 0.8;
-    border-radius:30px;
-
-    display: inline-block;
-    color: rgb(7, 7, 7);
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  body {
+body {
     font-family: 'Itim', cursive;
     background-color: #fdf6b2;
     margin: 0;
     padding: 0;
 }
-
 
 .feature-title {
     text-align: center;
@@ -66,8 +103,6 @@ li a:hover {
     text-align: center;
 }
 
-
-
 .feature-item h3 {
     font-size: 35px;
     color: #333;
@@ -80,6 +115,6 @@ li a:hover {
     line-height: 1.5;
 }
 
-h1{
+h1 {
     font-size: 50px;
 }
