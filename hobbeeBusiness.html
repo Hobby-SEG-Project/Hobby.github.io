@@ -88,6 +88,40 @@
             animation: fadeIn 1s forwards;
         }
 
+        .business-animated-text {
+            font-family: 'Itim', cursive;
+            font-size: 90px;
+            color: #ffcc00;
+            font-weight: bold;
+            text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            animation: fadeInText 3s ease-out forwards, slideUp 3s ease-out forwards;
+        }
+
+        @keyframes fadeInText {
+            0% {
+                opacity: 0;
+                transform: translate(-50%, -60%);
+            }
+            100% {
+                opacity: 1;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        @keyframes slideUp {
+            0% {
+                transform: translate(-50%, -60%);
+            }
+            100% {
+                transform: translate(-50%, -50%);
+            }
+        }
+
         .business-info {
             padding: 40px;
             border-radius: 20px;
@@ -205,6 +239,10 @@
                 <a href="teams.html">Teams</a>
             </div>
         </nav>
+
+        <div class="business-animated-text">
+            Business Membership
+        </div>
     </header>
 
     <main class="main-content">
