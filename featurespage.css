@@ -14,8 +14,8 @@ nav {
     z-index: 10;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    font-family: 'Itim', cursive, 'Poppins', sans-serif;
-    margin: 0;
+    font-family: 'Itim';
+       margin: 0;
     padding: 0;
     background-color: #fdf6b2;
     color: #333333;
@@ -76,7 +76,7 @@ img.logo {
 }
 
 body {
-    font-family: 'Itim', cursive;
+    font-family: 'Itim';
     background-color: #fdf6b2;
     margin: 0;
     padding: 0;

@@ -1,6 +1,6 @@
 /* Body and general layout */
 body {
-    font-family: 'Itim', cursive, 'Poppins', sans-serif;
+    font-family: 'Itim',;
     margin: 0;
     padding: 0;
     background-color: #fdf6b2;
@@ -82,7 +82,7 @@ nav a:hover {
 }
 
 .business-animated-text {
-    font-family: 'Itim', cursive;
+    font-family: 'Itim';
     font-size: 90px;
     color: #ffcc00;
     font-weight: bold;

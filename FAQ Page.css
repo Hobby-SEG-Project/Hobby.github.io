@@ -41,7 +41,7 @@ nav {
   z-index: 10;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  font-family: 'Itim', cursive, 'Poppins', sans-serif;
+  font-family: 'Itim';
 }
 
 nav .logo img {
@@ -79,7 +79,7 @@ nav a:hover {
     background-color: #fffbee; 
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    font-family: 'Itim', cursive, 'Poppins', sans-serif;
+    font-family: 'Itim';
     /* Yellow border */
     border: 3px solid #ffcc00; 
 }
@@ -91,7 +91,7 @@ nav a:hover {
     color: #ffcc00; 
     margin-bottom: 30px;
     font-weight: bold;
-    font-family: 'Itim', cursive, 'Poppins', sans-serif;
+    font-family: 'Itim';
     text-shadow: 2px 2px #333;
 }
 
@@ -101,7 +101,7 @@ nav a:hover {
     /* Honey gold border */
     border-bottom: 2px solid #ffd700; 
     padding-bottom: 15px;
-    font-family: 'Itim', cursive, 'Poppins', sans-serif;
+    font-family: 'Itim';
 }
 
 .faq-question {
@@ -114,7 +114,7 @@ nav a:hover {
     /* Gold border */
     border: 1px solid #ffd700; 
     border-radius: 8px;
-    font-family: 'Itim', cursive, 'Poppins', sans-serif;
+    font-family: 'Itim', cursive;
     transition: background-color 0.3s;
 }
 
@@ -130,7 +130,7 @@ nav a:hover {
     background-color: #fffbee;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family: 'Itim', cursive, 'Poppins', sans-serif;
+    font-family: 'Itim', cursive;
     font-size: 16px;
     line-height: 1.6;
 }
@@ -142,7 +142,7 @@ nav a:hover {
     border-left: 5px solid #ffcc00;
     background-color: #fffbee;
     margin-top: 10px;
-    font-family: 'Itim', cursive, 'Poppins', sans-serif;
+    font-family: 'Itim';
     font-size: 16px;
     line-height: 1.6;
 }
