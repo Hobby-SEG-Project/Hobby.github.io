@@ -3,56 +3,226 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HobBee - HobBee Business Membership</title>
-    <link rel="stylesheet" href="hobbeebusiness.css">
+    <title>HobBee Business Membership</title>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Itim', cursive, 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf6b2;
+            color: #333333;
+            overflow-x: hidden;
+        }
+
+        header {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .nav-video-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        .nav-video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(50%);
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            font-weight: bold;
+            z-index: 10;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        nav .logo img {
+            height: 40px;
+            width: auto;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 14px 30px;
+            margin: 0 20px;
+            border-radius: 30px;
+            background-color: rgba(255, 255, 255, 0.8);
+            font-size: 18px;
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #ffd700;
+            color: #333;
+            transform: scale(1.05);
+        }
+
+        .main-content {
+            margin-top: 20vh;
+            padding: 80px 40px;
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+
+        .business-info {
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            margin-bottom: 50px;
+            background-color: #fffbee;
+        }
+
+        .business-info h1 {
+            font-size: 48px;
+            color: #ffcc00;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .business-info h2 {
+            font-size: 28px;
+            color: #333333;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .business-info p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #333333;
+            margin-bottom: 30px;
+        }
+
+        .business-info ul {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 30px;
+        }
+
+        .business-info ul li {
+            font-size: 18px;
+            line-height: 2;
+            color: #333333;
+            padding-left: 30px;
+            position: relative;
+        }
+
+        .business-info ul li::before {
+            content: '✔';
+            position: absolute;
+            left: 0;
+            color: #ffcc00;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #ffcc00;
+            color: #fff;
+            padding: 18px 40px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 50px;
+            text-decoration: none;
+            margin-top: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #ffd700;
+            color: #333333;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                padding: 10px;
+            }
+
+            nav a {
+                margin: 10px 0;
+                width: 100%;
+                text-align: center;
+            }
+
+            .business-info {
+                padding: 20px;
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
 </head>
 <body>
+
     <header>
-        <h1>HobBee</h1>
+        <div class="nav-video-container">
+            <video autoplay muted loop>
+                <source src="images/business video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
         <nav>
-            <button onclick="scrollToSection('features')">Features</button>
-            <button onclick="scrollToSection('pricing')">Pricing</button>
-            <button onclick="scrollToSection('team')">Team</button>
-            <button onclick="scrollToSection('downloads')">Downloads</button>
-            <button onclick="scrollToSection('membership')">HobBee Business</button>
-            <button onclick="scrollToSection('contact')">Contact</button>
+            <a href="home.html" class="logo"><img src="images/HobBeeLogo.png" alt="HobBee Logo"></a>
+
+            <div>
+                <a href="business.html">Business</a>
+                <a href="featurespage.html">Features</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="FAQ.html">FAQ</a>
+                <a href="teams.html">Teams</a>
+            </div>
         </nav>
     </header>
 
-    <main>
-        <section id="features">
-            <h2>Features</h2>
+    <main class="main-content">
+        <section id="business-info" class="business-info">
+            <h1>HobBee Business Membership</h1>
+            <p>Welcome to HobBee Business Membership! Unlock exclusive features designed to help your business connect with like-minded individuals and grow through hobby-based networking.</p>
+            <h2>Why Choose HobBee Business?</h2>
+            <p>With HobBee Business, you get access to:</p>
             <ul>
-                <li>Exclusive resources</li>
-                <li>Networking opportunities</li>
-                <li>Discounts on events and services</li>
-                <li>Priority customer support</li>
+                <li><strong>Premium Networking Opportunities</strong> – Connect with potential collaborators and partners.</li>
+                <li><strong>Exclusive Events</strong> – Host and attend industry-specific workshops and networking sessions.</li>
+                <li><strong>Branding Opportunities</strong> – Promote your business to a hobby-driven audience.</li>
+                <li><strong>Special Discounts</strong> – Access discounts on events, services, and resources to help your business grow.</li>
             </ul>
+            <p>HobBee is not just for hobbyists – it’s the ideal platform for businesses looking to tap into a community of passionate individuals. Join today to take your business to the next level!</p>
+            <a href="#" class="cta-button">Join HobBee Business Today</a>
         </section>
-
-        <section id="pricing">
-            <h2>Pricing</h2>
-            <p>Membership Fee: <strong>$19.99 a month or $149.99 annually</strong></p>
-            <button id="purchase-btn">Upgrade to HobBee Business!</button>
-        </section>
-
-        <section id="team">
-            </ul>
-        </section>
-
-        </section>
-
-        <section id="membership">
-            <h2>HobBee Business Membership</h2>
-            <p>Join HobBee Business to unlock premium features that will help you grow and connect with like-minded individuals!</p>
-        </section>
-
     </main>
 
-    <script>
-        document.getElementById('purchase-btn').addEventListener('click', function() {
-            alert('Thank you for your purchase! We will contact you soon.');
-        });
-    </script>
 </body>
 </html>
