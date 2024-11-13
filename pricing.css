@@ -76,6 +76,7 @@ nav a:hover {
   .BOX{
     display:flex;
     justify-content:center;
+    text-decoration: none;
     align-items:center;
     gap:60px;
     
@@ -91,8 +92,9 @@ nav a:hover {
 
     width:400px;
     height:500px;
+    text-decoration: none;
     
-    color: rgb(182, 29, 29);
+    color: black;
     padding: 14px 16px;
     text-decoration: none;
     
