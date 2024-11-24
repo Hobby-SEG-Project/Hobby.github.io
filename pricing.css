@@ -3,15 +3,41 @@ img{
   width:170px;
 }
 
+.animated-text {
+  font-family: 'Itim';
+  font-size: 80px;
+  color: #ffcc00;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  animation: fadeInText 3s ease-out forwards;
+}
+
+@keyframes fadeInText {
+  0% {
+      opacity: 0;
+      transform: translate(-50%, -60%);
+  }
+  100% {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+  }
+}
+
+/*Page CSS*/
 body{
-  background-image:url(images/PebbleBeach.jpg);
   background-repeat:no-repeat;
   background-position:center;
   background-attachment:fixed;
   background-size:cover;
   font-family: 'Itim';
-      margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
     background-color: #fdf6b2;
     color: #333333;
     overflow-x: hidden;
@@ -33,6 +59,7 @@ body{
     
 }
 
+/* Navigation bar CSS*/
 nav {
   position: fixed;
   top: 0;
@@ -73,55 +100,87 @@ nav a:hover {
   transform: scale(1.05);
 }
 
-  .BOX{
-    display:flex;
-    justify-content:center;
-    text-decoration: none;
-    align-items:center;
-    gap:60px;
-    
-  }
-  .box{
-    display:flex;
-    font-size: 16px;
-    font-weight: bold;
-    border-style: solid;
-    opacity: 0.8;
-    border-radius:30px;
-    background-color: #fdf6b2;
+.nav-video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
 
-    width:400px;
-    height:500px;
-    text-decoration: none;
-    
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-    
-  }
+/* Box CSS*/
+.BOX {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  max-width: 100%;
+  flex-wrap: nowrap;
 
-.buttons{
-  font-size:24px;
-  border-style:solid;
-  color:black;
-  width:150px;
-  border-radius:30px;
-  margin:auto;
-  background-color: #fffbee;
-  padding: 14px 16px;
-  text-align:center;
-  text-decoration:none;
+}
+
+.box {
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between; 
+  align-items: center;
+  background-color: #ffffff;
+  width: 300px;
+  height: 450px;
+  padding: 40px 30px; 
+  border: 2px solid #cccccc;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.box h1 {
+  font-size: 24px;
+  font-weight: bold; 
+  color: #333333;
+  margin-bottom: 25px;
+}
+
+.box ul {
+  list-style: disc; 
+  padding-left: 40px;
+  color: #555555; 
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.8;
+  text-align: left; 
+  margin-bottom: 30px; 
+}
+
+.box ul li {
+  margin-bottom: 15px; /* For formatting */
+}
+
+/* Buttons */
+.buttons {
+  font-size: 16px;
+  font-weight: bold;
+  min-width: 160px; 
+  height: 50px; 
+  border-radius: 25px;
+  margin-top: 15px;
+  background-color: #ffcc00;
+  color: #333333;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.buttons:hover {
+  background-color: #e6b800;
+  transform: scale(1.05); 
 }
   
 
-h4{
-  font-size:24px;
-  color:#fffbee;
-}
-
-.business{
-  font-weight:bold;
-}
-span {
-  background-color:#fffbee;
-}
