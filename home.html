@@ -4,29 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <!-- Link to external CSS -->
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/HobBeeLogo(H).png">
-    <script defer src="script.js"></script>
+    <!-- Link to external JS -->
+    <script defer src="home.js"></script>
 </head>
 <body>
+
+    <!-- Background video -->
     <video autoplay loop muted plays-inline class="back-video">
-        <source  src="videos/video.mp4" type="video/mp4">
+        <source src="videos/video.mp4" type="video/mp4">
     </video>
+    
+    <!-- Navigation bar -->
     <header>
         <nav>
-            <img src="logo.png" class="logo">
-            <ul>
-                <li><a href='teams.html'>TEAMS</a></li>
-                <li><a href='featurespage.html'>FEATURES</a></li>
-                <li><a href='pricing.html'>PRICING</a></li>
-                <li><a href='FAQ.html'>FAQ</a></li>
-            </ul>
+            <a href="home.html" class="logo"><img src="images/HobBeeLogo.png" alt="HobBee Logo"></a>
+            <div>
+                <a href="featurespage.html">Features</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="FAQ.html">FAQ</a>
+                <a href="teams.html">Teams</a>
+            </div>
         </nav>
     </header>
+    
+    <!-- Main content section -->
     <div class="content">
         <small>Welcome to</small>
         <h1>HobBee</h1>
     </div>
+
+    <!-- Section 1 -->
     <div class="body1">
         <div class="text1">
             <div class="oval">
@@ -36,6 +48,7 @@
         </div>
     </div>
     
+    <!-- Section 2 -->
     <div class="body2">
         <div class="text2">
             <img src="image2.jpg" alt="Image" class="side-image">
@@ -45,6 +58,7 @@
         </div>
     </div>
     
+    <!-- Section 3 -->
     <div class="body3">
         <div class="text3">
             <div class="oval">
@@ -53,5 +67,6 @@
             <img src="image3.jpg" alt="Image" class="side-image">
         </div>
     </div>    
+
 </body>
 </html>
